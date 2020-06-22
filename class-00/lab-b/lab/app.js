@@ -114,6 +114,7 @@ let sum = (a, b, c, d) => `${a + b + c + d}`;
 console.log(sum(1, 2, 3, 4));
 
 
+
 let objectLit = () => {
   return {
     key1: 'value1',
@@ -198,5 +199,5 @@ console.log(joe.scopeArrow());
 //
 // 2. What is "this" when joe.scopeArrow() is invoked? the window you are in
 //
-// 3. Explain why "this" is different when an arrow function is used. the first one "this" the instance of an object. While you can use the loser version of a function with an arrow fuction. It doesnt have an instance of an object so it defers to the window as a whole.
+// 3. Explain why "this" is different when an arrow function is used. the first one "this" the instance of an object. While you can use the loser version of a function with an arrow fuction. It doesnt have an instance of an object so it defers to the window as a whole..
 //
